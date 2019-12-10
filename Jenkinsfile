@@ -8,6 +8,6 @@ peline {
                 sh "docker run -d miracleServer:${env.BUILD_ID}"
             }
         }
-}
+    }
 }
 
