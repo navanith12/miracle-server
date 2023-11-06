@@ -9,6 +9,7 @@ pipeline {
                 sh 'docker images'
                 sh 'docker run -d miracleserver'
                 sh 'docker ps'
+                sh 'EXIT'
             }
         }
     }
